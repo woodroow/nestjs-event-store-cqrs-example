@@ -1,3 +1,3 @@
-import { RespawnDragonHandler } from './respawn-dragon.handler';
+import { SpawnDragonHandler } from './spawn-dragon.handler';
 
-export const CommandHandlers = [RespawnDragonHandler];
+export const CommandHandlers = [SpawnDragonHandler];

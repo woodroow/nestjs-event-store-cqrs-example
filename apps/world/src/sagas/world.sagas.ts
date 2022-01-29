@@ -3,7 +3,7 @@ import { Injectable, Logger } from '@nestjs/common';
 import { ICommand, ofType, Saga } from '@nestjs/cqrs';
 import { Observable } from 'rxjs';
 import { delay, map } from 'rxjs/operators';
-import { RespawnDragonCommand } from '../commands/impl/respawn-dragon.command';
+import { SpawnDragonCommand } from '../commands/impl/spawn-dragon.command';
 
 @Injectable()
 export class WorldSagas {
@@ -16,7 +16,7 @@ export class WorldSagas {
       map((event) => {
         this.logger.verbose('Inside [WorldSagas] Saga respawn new dragon');
 
-        return new RespawnDragonCommand();
+        return new SpawnDragonCommand();
       }),
     );
   };

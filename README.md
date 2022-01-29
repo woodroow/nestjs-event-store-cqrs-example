@@ -12,7 +12,7 @@ Full example [nest-event-store-cqrs](https://github.com/woodroow/nestjs-event-st
 
 
 
-After `HeroKilledDragonEvent` world service should respawn new dragon by doing `RespawnDragonCommand`
+After the hero service fires a `HeroKilledDragonEvent`, the world service must spawn a new dragon by issuing a `RespawnDragonCommand`
 ## Installation
 
 ```bash
