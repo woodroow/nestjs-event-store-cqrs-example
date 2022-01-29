@@ -5,7 +5,7 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-Full example [nest-event-store-cqrs](https://github.com/woodroow/nestjs-event-store-cqrs-example) use KafkaJS as event-store module with [Nest](https://github.com/kamilmysliwiec/nest) and [CQRS](https://github.com/nestjs/cqrs).
+Full example [nest-event-store-cqrs](https://github.com/woodroow/nestjs-event-store-cqrs) use KafkaJS as event-store module with [Nest](https://github.com/kamilmysliwiec/nest) and [CQRS](https://github.com/nestjs/cqrs).
    
 ## Description
 
