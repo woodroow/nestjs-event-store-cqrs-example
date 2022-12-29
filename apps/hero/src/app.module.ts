@@ -16,10 +16,7 @@ import { HeroesGameModule } from './heroes/heroes.module';
       consumer: {
         groupId: 'hero-consumer',
       },
-      eventHandlers: {
-        HeroKilledDragonEvent: (heroId, dragonId) =>
-          new HeroKilledDragonEvent(heroId, dragonId),
-      },
+      events: [HeroKilledDragonEvent],
     }),
   ],
   controllers: [AppController],

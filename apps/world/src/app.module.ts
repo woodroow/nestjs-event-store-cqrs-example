@@ -16,10 +16,7 @@ import { WorldSagas } from './sagas/world.sagas';
       consumer: {
         groupId: 'world-consumer',
       },
-      eventHandlers: {
-        HeroKilledDragonEvent: (heroId, dragonId) =>
-          new HeroKilledDragonEvent(heroId, dragonId),
-      },
+      events: [HeroKilledDragonEvent],
     }),
   ],
   controllers: [AppController],
